@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-19 01:15+0000\n"
-"PO-Revision-Date: 2018-12-19 01:15\n"
+"POT-Creation-Date: 2018-12-23 09:06+0000\n"
+"PO-Revision-Date: 2018-12-23 09:06\n"
 "Last-Translator: rdymac <crowdin-electrum@monerovenezuela.com>\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -24,7 +24,7 @@ msgstr "  (Žádný kurz k dispozici)"
 msgid " Balance"
 msgstr " Zůstatek"
 
-#: electrum/gui/qt/history_list.py:147
+#: electrum/gui/qt/history_list.py:148
 msgid " confirmation"
 msgstr ""
 
@@ -216,19 +216,19 @@ msgstr "1 hodina"
 msgid "1 week"
 msgstr "1 týden"
 
-#: electrum/plugins/revealer/qt.py:478
+#: electrum/plugins/revealer/qt.py:450
 msgid "1. Place this paper on a flat and well iluminated surface."
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:479
+#: electrum/plugins/revealer/qt.py:451
 msgid "2. Align your Revealer borderlines to the dashed lines on the top and left."
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:480
+#: electrum/plugins/revealer/qt.py:452
 msgid "3. Press slightly the Revealer against the paper and read the numbers that best match on the opposite sides. "
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:482
+#: electrum/plugins/revealer/qt.py:454
 msgid "4. Type the numbers in the software"
 msgstr ""
 
@@ -256,7 +256,7 @@ msgstr ""
 msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
 msgstr "Navrhovaný poplatek je automaticky vložen do tohoto políčka. Můžete ho přepsat. Výše navrhovaného poplatku se zvyšuje v závislosti na velikosti transakce."
 
-#: electrum/gui/kivy/main.kv:447
+#: electrum/gui/kivy/main.kv:445
 msgid "About"
 msgstr "O programu"
 
@@ -272,7 +272,7 @@ msgstr "Potvrdit"
 msgid "Accept Word"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:304
+#: electrum/gui/qt/history_list.py:310
 msgid "Acquisition price"
 msgstr ""
 
@@ -301,11 +301,11 @@ msgstr "Dodatečné poplatky"
 msgid "Additional {} satoshis are going to be added."
 msgstr ""
 
-#: electrum/gui/qt/util.py:337 electrum/gui/qt/utxo_list.py:47
+#: electrum/gui/qt/util.py:342 electrum/gui/qt/utxo_list.py:47
 #: electrum/gui/qt/address_list.py:67 electrum/gui/qt/contact_list.py:96
 #: electrum/gui/qt/request_list.py:92 electrum/gui/qt/address_dialog.py:47
-#: electrum/gui/qt/main_window.py:2092 electrum/gui/qt/main_window.py:2203
-#: electrum/gui/qt/main_window.py:2283
+#: electrum/gui/qt/main_window.py:2096 electrum/gui/qt/main_window.py:2207
+#: electrum/gui/qt/main_window.py:2287
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:40
 msgid "Address"
 msgstr "Adresa"
@@ -315,7 +315,7 @@ msgid "Address copied to clipboard"
 msgstr ""
 
 #: electrum/wallet.py:1044 electrum/plugins/hw_wallet/plugin.py:77
-#: electrum/gui/qt/main_window.py:2235
+#: electrum/gui/qt/main_window.py:2239
 msgid "Address not in wallet."
 msgstr ""
 
@@ -342,7 +342,7 @@ msgid "After disabling passphrases, you can only pair this Electrum wallet if it
 msgstr ""
 
 #: electrum/gui/qt/address_list.py:46 electrum/gui/qt/address_list.py:50
-#: electrum/gui/qt/history_list.py:382 electrum/gui/qt/history_list.py:406
+#: electrum/gui/qt/history_list.py:388 electrum/gui/qt/history_list.py:412
 msgid "All"
 msgstr "Vše"
 
@@ -358,14 +358,14 @@ msgstr ""
 msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:200
+#: electrum/plugins/revealer/qt.py:173
 msgid "Always check you backups."
 msgstr ""
 
 #: electrum/gui/text.py:109 electrum/gui/text.py:180
 #: electrum/gui/qt/utxo_list.py:47 electrum/gui/qt/request_list.py:92
-#: electrum/gui/qt/history_list.py:310 electrum/gui/qt/invoice_list.py:45
-#: electrum/gui/qt/main_window.py:1126 electrum/gui/qt/main_window.py:1919
+#: electrum/gui/qt/history_list.py:316 electrum/gui/qt/invoice_list.py:45
+#: electrum/gui/qt/main_window.py:1126 electrum/gui/qt/main_window.py:1922
 #: electrum/gui/stdio.py:107 electrum/gui/kivy/uix/ui_screens/receive.kv:89
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:90
 #: electrum/gui/kivy/uix/ui_screens/send.kv:53
@@ -415,7 +415,7 @@ msgstr ""
 msgid "An unnamed {}"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3075
+#: electrum/gui/qt/main_window.py:3079
 msgid "Appearance"
 msgstr "Vzhled"
 
@@ -444,11 +444,11 @@ msgstr ""
 msgid "Are you sure you want to proceed?"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:585
+#: electrum/gui/qt/history_list.py:592
 msgid "Are you sure you want to remove this transaction and {} child transactions?"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:582
+#: electrum/gui/qt/history_list.py:589
 msgid "Are you sure you want to remove this transaction?"
 msgstr ""
 
@@ -476,7 +476,7 @@ msgstr "Autorizace"
 msgid "Auto connect"
 msgstr "Automatické připojení"
 
-#: electrum/gui/kivy/uix/ui_screens/network.kv:36
+#: electrum/gui/kivy/uix/ui_screens/network.kv:33
 msgid "Auto-connect"
 msgstr "Automatické připojení"
 
@@ -498,10 +498,10 @@ msgid "Back"
 msgstr "Zpět"
 
 #: electrum/gui/text.py:109 electrum/gui/text.py:142
-#: electrum/gui/qt/address_list.py:67 electrum/gui/qt/history_list.py:311
+#: electrum/gui/qt/address_list.py:67 electrum/gui/qt/history_list.py:317
 #: electrum/gui/qt/main_window.py:766 electrum/gui/stdio.py:107
 #: electrum/gui/stdio.py:119 electrum/gui/kivy/uix/ui_screens/invoice.kv:52
-#: electrum/gui/kivy/uix/ui_screens/status.kv:33 electrum/gui/kivy/main.kv:394
+#: electrum/gui/kivy/uix/ui_screens/status.kv:33 electrum/gui/kivy/main.kv:392
 msgid "Balance"
 msgstr "Zůstatek"
 
@@ -509,15 +509,15 @@ msgstr "Zůstatek"
 msgid "Banner"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2840
+#: electrum/gui/qt/main_window.py:2844
 msgid "Base unit"
 msgstr "Základní jednotka"
 
-#: electrum/gui/qt/main_window.py:2837
+#: electrum/gui/qt/main_window.py:2841
 msgid "Base unit of your wallet."
 msgstr "Základní jednotka vaší peněženky."
 
-#: electrum/gui/qt/main_window.py:2775
+#: electrum/gui/qt/main_window.py:2779
 msgid "Batch RBF transactions"
 msgstr ""
 
@@ -546,7 +546,7 @@ msgid "Bitcoin transactions are in general not free. A transaction fee is paid b
 msgstr "Transakce Bitcoinů obecně nejsou bezplatné. Poplatek za transakci platí odesílatel financí."
 
 #: electrum/gui/qt/network_dialog.py:306
-#: electrum/gui/kivy/uix/ui_screens/network.kv:50
+#: electrum/gui/kivy/uix/ui_screens/network.kv:47
 msgid "Blockchain"
 msgstr "Blockchain"
 
@@ -559,7 +559,7 @@ msgstr ""
 msgid "Bootloader Hash"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:762
+#: electrum/plugins/revealer/qt.py:736
 msgid "Bottom"
 msgstr ""
 
@@ -571,7 +571,7 @@ msgstr ""
 msgid "Broadcast"
 msgstr "Zveřejnit"
 
-#: electrum/gui/qt/main_window.py:1695
+#: electrum/gui/qt/main_window.py:1698
 msgid "Broadcasting transaction..."
 msgstr "Zveřejňování transakce..."
 
@@ -583,28 +583,28 @@ msgstr ""
 msgid "Bulgarian"
 msgstr "Bulharsky"
 
-#: electrum/gui/qt/main_window.py:3263
+#: electrum/gui/qt/main_window.py:3267
 msgid "Bump Fee"
 msgstr "Navýšit poplatek"
 
-#: electrum/gui/qt/util.py:350
+#: electrum/gui/qt/util.py:355
 msgid "CSV"
 msgstr "CSV"
 
-#: electrum/plugins/revealer/qt.py:472
+#: electrum/plugins/revealer/qt.py:444
 msgid "Calibration sheet"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:754
+#: electrum/plugins/revealer/qt.py:728
 msgid "Calibration values:"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3259
+#: electrum/gui/qt/main_window.py:3263
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:139
 msgid "Can't bump fee: unknown fee for original transaction."
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:490
+#: electrum/gui/qt/history_list.py:496
 msgid "Can't plot history."
 msgstr ""
 
@@ -624,7 +624,7 @@ msgstr ""
 msgid "Cannot add this cosigner:"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:934
+#: electrum/gui/kivy/main_window.py:950
 msgid "Cannot broadcast transaction"
 msgstr "Nelze zveřejnit transakci"
 
@@ -644,15 +644,15 @@ msgstr ""
 msgid "Cannot read file"
 msgstr "Nelze přečíst soubor"
 
-#: electrum/gui/qt/main_window.py:2239
+#: electrum/gui/qt/main_window.py:2243
 msgid "Cannot sign messages with this type of address:"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:305
+#: electrum/gui/qt/history_list.py:311
 msgid "Capital Gains"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:478
+#: electrum/gui/qt/history_list.py:484
 msgid "Capital gains"
 msgstr ""
 
@@ -678,7 +678,7 @@ msgstr "Změnit heslo"
 msgid "Change..."
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:1055
+#: electrum/gui/kivy/main_window.py:1071
 msgid "Changing PIN code."
 msgstr "Změna PIN kódu."
 
@@ -692,11 +692,11 @@ msgstr ""
 msgid "Check your {} device to continue"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3205
+#: electrum/gui/qt/main_window.py:3209
 msgid "Child Pays for Parent"
 msgstr "Child Pays for Parent"
 
-#: electrum/gui/qt/history_list.py:572
+#: electrum/gui/qt/history_list.py:579
 msgid "Child pays for parent"
 msgstr "Child pays for parent"
 
@@ -713,7 +713,7 @@ msgstr ""
 msgid "Choose Homescreen"
 msgstr ""
 
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:1038
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:1042
 msgid "Choose PIN code"
 msgstr ""
 
@@ -729,11 +729,11 @@ msgstr ""
 msgid "Choose a password to encrypt your wallet keys."
 msgstr "Zadejte heslo pro zašifrování svých klíčů k peněžence."
 
-#: electrum/gui/kivy/main_window.py:122
+#: electrum/gui/kivy/main_window.py:129
 msgid "Choose a server"
 msgstr "Vybrat server"
 
-#: electrum/gui/qt/main_window.py:2939
+#: electrum/gui/qt/main_window.py:2943
 msgid "Choose coin (UTXO) selection method.  The following are available:\n\n"
 msgstr "Vyberte metodu výběru (UTXO) mincí. Dostupné jsou následující:\n\n"
 
@@ -766,11 +766,11 @@ msgstr "Vyberte počet nutných podpisů k odblokování prostředků ve své pe
 msgid "Choose the type of addresses in your wallet."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2863
+#: electrum/gui/qt/main_window.py:2867
 msgid "Choose which online block explorer to use for functions that open a web browser"
 msgstr "Vyberte online průzkumník bloků k používání pro funkce, které otevírají webový prohlížeč"
 
-#: electrum/gui/kivy/main_window.py:137
+#: electrum/gui/kivy/main_window.py:144
 msgid "Choose your chain"
 msgstr "Vyberte svůj řetězec"
 
@@ -802,7 +802,7 @@ msgstr ""
 
 #: electrum/gui/qt/util.py:143 electrum/gui/qt/transaction_dialog.py:138
 #: electrum/gui/qt/qrcodewidget.py:126 electrum/gui/qt/__init__.py:153
-#: electrum/gui/qt/main_window.py:2301 electrum/gui/qt/main_window.py:2368
+#: electrum/gui/qt/main_window.py:2305 electrum/gui/qt/main_window.py:2372
 #: electrum/gui/kivy/uix/ui_screens/about.kv:54
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:82
 msgid "Close"
@@ -816,7 +816,7 @@ msgstr "M&ince"
 msgid "Code"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2941
+#: electrum/gui/qt/main_window.py:2945
 #: electrum/gui/kivy/uix/dialogs/settings.py:153
 msgid "Coin selection"
 msgstr "Zvolení mince"
@@ -829,7 +829,7 @@ msgstr ""
 msgid "Coldcard Wallet"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2895
+#: electrum/gui/qt/main_window.py:2899
 msgid "Color theme"
 msgstr "Barevný motiv"
 
@@ -966,7 +966,7 @@ msgstr ""
 msgid "Connected node"
 msgstr ""
 
-#: electrum/gui/kivy/uix/ui_screens/network.kv:58
+#: electrum/gui/kivy/uix/ui_screens/network.kv:55
 msgid "Connected nodes are on the same chain"
 msgstr ""
 
@@ -1004,13 +1004,13 @@ msgstr "Kopírovat a zavřít"
 msgid "Copy and paste the recipient address using the Paste button, or use the camera to scan a QR code."
 msgstr ""
 
-#: electrum/gui/qt/util.py:601
+#: electrum/gui/qt/util.py:606
 msgid "Copy to clipboard"
 msgstr "Zkopírovat do schránky"
 
 #: electrum/gui/qt/address_list.py:172 electrum/gui/qt/contact_list.py:77
-#: electrum/gui/qt/request_list.py:134 electrum/gui/qt/history_list.py:557
-#: electrum/gui/qt/invoice_list.py:84
+#: electrum/gui/qt/request_list.py:134 electrum/gui/qt/history_list.py:563
+#: electrum/gui/qt/invoice_list.py:86
 msgid "Copy {}"
 msgstr "Kopírovat {}"
 
@@ -1022,7 +1022,7 @@ msgstr ""
 msgid "Cosigner Pool"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2407
+#: electrum/gui/qt/main_window.py:2411
 msgid "Could not decode QR code"
 msgstr "Nelze rozpoznat QR kód"
 
@@ -1048,11 +1048,11 @@ msgstr ""
 msgid "Create"
 msgstr "Vytvořit"
 
-#: electrum/plugins/revealer/qt.py:111
+#: electrum/plugins/revealer/qt.py:107
 msgid "Create a new Revealer"
 msgstr ""
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:497 electrum/base_wizard.py:167
+#: electrum/plugins/trustedcoin/trustedcoin.py:503 electrum/base_wizard.py:167
 msgid "Create a new seed"
 msgstr "Vytvořit nový Seed"
 
@@ -1064,7 +1064,7 @@ msgstr ""
 msgid "Create keystore from a master key"
 msgstr ""
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:494
+#: electrum/plugins/trustedcoin/trustedcoin.py:500
 msgid "Create or restore"
 msgstr "Vytvořit nebo obnovit"
 
@@ -1076,7 +1076,7 @@ msgstr "Kritická chyba"
 msgid "Current Password:"
 msgstr "Aktuální heslo:"
 
-#: electrum/gui/qt/main_window.py:3266
+#: electrum/gui/qt/main_window.py:3270
 msgid "Current fee"
 msgstr "Aktuální poplatek"
 
@@ -1084,11 +1084,11 @@ msgstr "Aktuální poplatek"
 msgid "Current rate"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:379 electrum/gui/qt/history_list.py:406
+#: electrum/gui/qt/history_list.py:385 electrum/gui/qt/history_list.py:412
 msgid "Custom"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:409
+#: electrum/plugins/revealer/qt.py:381
 msgid "Custom secret"
 msgstr ""
 
@@ -1100,7 +1100,7 @@ msgstr ""
 msgid "Danish"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2892
+#: electrum/gui/qt/main_window.py:2896
 msgid "Dark"
 msgstr ""
 
@@ -1109,7 +1109,7 @@ msgid "Dark/Light"
 msgstr "Tmavý/světlý"
 
 #: electrum/gui/text.py:109 electrum/gui/qt/request_list.py:92
-#: electrum/gui/qt/history_list.py:308 electrum/gui/stdio.py:107
+#: electrum/gui/qt/history_list.py:314 electrum/gui/stdio.py:107
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:114
 msgid "Date"
 msgstr "Datum"
@@ -1122,7 +1122,7 @@ msgstr "Datum: {}"
 msgid "Debug message"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2364
+#: electrum/gui/qt/main_window.py:2368
 msgid "Decrypt"
 msgstr "Dešifrovat"
 
@@ -1135,14 +1135,14 @@ msgid "Default Servers"
 msgstr "Výchozí servery"
 
 #: electrum/gui/qt/contact_list.py:85 electrum/gui/qt/request_list.py:137
-#: electrum/gui/qt/invoice_list.py:88 electrum/gui/qt/main_window.py:508
-#: electrum/gui/qt/main_window.py:1945
+#: electrum/gui/qt/invoice_list.py:90 electrum/gui/qt/main_window.py:508
+#: electrum/gui/qt/main_window.py:1949
 #: electrum/gui/kivy/uix/dialogs/requests.py:126
 #: electrum/gui/kivy/uix/ui_screens/status.kv:81
 msgid "Delete"
 msgstr "Smazat"
 
-#: electrum/gui/qt/main_window.py:1940
+#: electrum/gui/qt/main_window.py:1944
 #: electrum/gui/kivy/uix/dialogs/invoices.py:158
 msgid "Delete invoice?"
 msgstr "Smazat fakturu?"
@@ -1151,11 +1151,11 @@ msgstr "Smazat fakturu?"
 msgid "Delete request"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2153
+#: electrum/gui/qt/main_window.py:2157
 msgid "Delete wallet file?"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:1003
+#: electrum/gui/kivy/main_window.py:1019
 msgid "Delete wallet?"
 msgstr "Smazat peněženku?"
 
@@ -1165,7 +1165,7 @@ msgstr "Hodnota"
 
 #: electrum/gui/text.py:109 electrum/gui/text.py:179
 #: electrum/gui/qt/transaction_dialog.py:243 electrum/gui/qt/request_list.py:92
-#: electrum/gui/qt/history_list.py:309 electrum/gui/qt/invoice_list.py:45
+#: electrum/gui/qt/history_list.py:315 electrum/gui/qt/invoice_list.py:45
 #: electrum/gui/qt/main_window.py:846 electrum/gui/qt/main_window.py:1111
 #: electrum/gui/stdio.py:107 electrum/gui/kivy/uix/ui_screens/receive.kv:108
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:49
@@ -1178,7 +1178,7 @@ msgid "Description of the transaction (not mandatory)."
 msgstr "Popis transakce (není povinné)."
 
 #: electrum/gui/qt/utxo_list.py:86 electrum/gui/qt/address_list.py:173
-#: electrum/gui/qt/history_list.py:563 electrum/gui/qt/invoice_list.py:85
+#: electrum/gui/qt/history_list.py:570 electrum/gui/qt/invoice_list.py:87
 #: electrum/gui/kivy/uix/dialogs/addresses.py:124
 msgid "Details"
 msgstr "Detaily"
@@ -1210,7 +1210,7 @@ msgstr ""
 msgid "Digital Bitbox wallet"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:209
+#: electrum/plugins/revealer/qt.py:186
 msgid "Digital Revealer ({}_{}) saved as PNG and PDF at:"
 msgstr ""
 
@@ -1229,7 +1229,7 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:732
+#: electrum/gui/kivy/main_window.py:745
 msgid "Disconnected"
 msgstr "Odpojeno"
 
@@ -1257,7 +1257,7 @@ msgstr "Neuchovávejte jej v elektronické podobě."
 msgid "Do you have something to hide ?"
 msgstr ""
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:495 electrum/base_wizard.py:165
+#: electrum/plugins/trustedcoin/trustedcoin.py:501 electrum/base_wizard.py:165
 msgid "Do you want to create a new seed, or to restore a wallet using an existing seed?"
 msgstr ""
 
@@ -1269,7 +1269,7 @@ msgstr ""
 msgid "Do you want to delete the old file"
 msgstr "Chcete smazat starý soubor"
 
-#: electrum/gui/kivy/main_window.py:564
+#: electrum/gui/kivy/main_window.py:572
 msgid "Do you want to launch the wizard again?"
 msgstr ""
 
@@ -1277,7 +1277,7 @@ msgstr ""
 msgid "Do you want to open it now?"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1845
+#: electrum/gui/qt/main_window.py:1848
 msgid "Do you want to remove {} from your wallet?"
 msgstr ""
 
@@ -1297,32 +1297,32 @@ msgstr ""
 msgid "Dutch"
 msgstr ""
 
-#: electrum/util.py:98
+#: electrum/util.py:97
 msgid "Dynamic fee estimates not available"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2744
+#: electrum/gui/qt/main_window.py:2748
 msgid "ETA"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:129
+#: electrum/plugins/revealer/qt.py:125
 msgid "Each revealer should be used only once."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2753
+#: electrum/gui/qt/main_window.py:2757
 msgid "Edit fees manually"
 msgstr "Upravit poplatky manuálně"
 
 #: electrum/gui/qt/address_list.py:175 electrum/gui/qt/contact_list.py:83
-#: electrum/gui/qt/history_list.py:562
+#: electrum/gui/qt/history_list.py:569
 msgid "Edit {}"
 msgstr "Upravit {}"
 
-#: electrum/gui/kivy/main_window.py:278
+#: electrum/gui/kivy/main_window.py:285
 msgid "Electrum App"
 msgstr "Aplikace Electrum"
 
-#: electrum/gui/qt/main_window.py:3139
+#: electrum/gui/qt/main_window.py:3143
 msgid "Electrum Plugins"
 msgstr "Electrum pluginy"
 
@@ -1367,19 +1367,19 @@ msgstr "Electrum nemohl zkopírovat soubor peněženky do zvoleného umístění
 msgid "Electrum was unable to deserialize the transaction:"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2422
+#: electrum/gui/qt/main_window.py:2426
 msgid "Electrum was unable to open your transaction file"
 msgstr "Electrum nemohl otevřít soubor s Vašimi transakcemi"
 
-#: electrum/gui/qt/main_window.py:2387
+#: electrum/gui/qt/main_window.py:2391
 msgid "Electrum was unable to parse your transaction"
 msgstr "Electrum nebyl schopen parsovat Vaši transakci"
 
-#: electrum/gui/qt/main_window.py:2534
+#: electrum/gui/qt/main_window.py:2538
 msgid "Electrum was unable to produce a private key-export."
 msgstr "Electrum nemohl vytvořit export osobního klíče."
 
-#: electrum/gui/qt/history_list.py:625
+#: electrum/gui/qt/history_list.py:632
 msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum nemohl vytvořit export transakce."
 
@@ -1405,7 +1405,7 @@ msgstr ""
 msgid "Enable Passphrases"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2964
+#: electrum/gui/qt/main_window.py:2968
 msgid "Enable output value rounding"
 msgstr ""
 
@@ -1419,11 +1419,11 @@ msgstr ""
 msgid "Enabled"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2360
+#: electrum/gui/qt/main_window.py:2364
 msgid "Encrypt"
 msgstr "Šifrovat"
 
-#: electrum/plugins/revealer/qt.py:269
+#: electrum/plugins/revealer/qt.py:261
 msgid "Encrypt custom secret"
 msgstr ""
 
@@ -1432,11 +1432,11 @@ msgstr ""
 msgid "Encrypt wallet file"
 msgstr "Zašifrovat soubor peněženky"
 
-#: electrum/plugins/revealer/qt.py:250
+#: electrum/plugins/revealer/qt.py:242
 msgid "Encrypt {}'s seed"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2337
+#: electrum/gui/qt/main_window.py:2341
 msgid "Encrypt/decrypt Message"
 msgstr "Šifrovat/dešifrovat zprávu"
 
@@ -1444,7 +1444,7 @@ msgstr "Šifrovat/dešifrovat zprávu"
 msgid "Encrypt/decrypt message"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2355
+#: electrum/gui/qt/main_window.py:2359
 msgid "Encrypted"
 msgstr "Šifrováno"
 
@@ -1459,7 +1459,7 @@ msgstr ""
 msgid "Encryption and decryption are not implemented by {}"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:466
+#: electrum/gui/qt/history_list.py:472
 msgid "End"
 msgstr ""
 
@@ -1468,11 +1468,11 @@ msgid "English"
 msgstr ""
 
 #: electrum/plugins/trezor/qt.py:142 electrum/plugins/keepkey/qt.py:170
-#: electrum/plugins/safe_t/qt.py:53 electrum/gui/kivy/main_window.py:801
+#: electrum/plugins/safe_t/qt.py:53 electrum/gui/kivy/main_window.py:814
 msgid "Enter PIN"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:543
+#: electrum/gui/kivy/main_window.py:551
 msgid "Enter PIN code"
 msgstr ""
 
@@ -1511,7 +1511,7 @@ msgstr ""
 msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr "Vložte seznam Bitcoinových adres (vytvoření peněženky pouze na prohlížení) nebo seznam privátních klíčů."
 
-#: electrum/gui/qt/main_window.py:1865
+#: electrum/gui/qt/main_window.py:1868
 msgid "Enter a list of outputs in the 'Pay to' field."
 msgstr "Zadejte seznam výstupů do pole 'Komu'."
 
@@ -1531,7 +1531,7 @@ msgstr ""
 msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2664
+#: electrum/gui/qt/main_window.py:2668
 msgid "Enter addresses"
 msgstr "Zadejte adresu"
 
@@ -1543,7 +1543,7 @@ msgstr ""
 msgid "Enter cosigner seed"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:941
+#: electrum/gui/kivy/main_window.py:957
 msgid "Enter description"
 msgstr "Zadejte popis"
 
@@ -1558,11 +1558,11 @@ msgstr "Zadejte nový PIN"
 msgid "Enter password:"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2673
+#: electrum/gui/qt/main_window.py:2677
 msgid "Enter private keys"
 msgstr "Zadejte soukromé klíče"
 
-#: electrum/gui/qt/main_window.py:2581
+#: electrum/gui/qt/main_window.py:2585
 msgid "Enter private keys:"
 msgstr "Zadejte soukromé klíče:"
 
@@ -1611,11 +1611,11 @@ msgstr ""
 msgid "Enter your PIN (digits 1-9):"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:1078
+#: electrum/gui/kivy/main_window.py:1094
 msgid "Enter your PIN code in order to decrypt your private key"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:1028
+#: electrum/gui/kivy/main_window.py:1044
 msgid "Enter your PIN code in order to decrypt your seed"
 msgstr "Zadejte PIN kód pro dešifrování svého seed-semínka"
 
@@ -1623,7 +1623,7 @@ msgstr "Zadejte PIN kód pro dešifrování svého seed-semínka"
 msgid "Enter your PIN code in order to sign this transaction"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:1009
+#: electrum/gui/kivy/main_window.py:1025
 msgid "Enter your PIN code to confirm deletion of {}"
 msgstr ""
 
@@ -1631,7 +1631,7 @@ msgstr ""
 msgid "Enter your PIN code to proceed"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:1055
+#: electrum/gui/kivy/main_window.py:1071
 msgid "Enter your current PIN:"
 msgstr "Zadejte svůj aktuální PIN:"
 
@@ -1660,7 +1660,7 @@ msgstr ""
 #: electrum/plugins/trustedcoin/kivy.py:69
 #: electrum/plugins/trustedcoin/kivy.py:71
 #: electrum/plugins/trustedcoin/kivy.py:84
-#: electrum/plugins/trustedcoin/trustedcoin.py:646 electrum/gui/qt/util.py:199
+#: electrum/plugins/trustedcoin/trustedcoin.py:652 electrum/gui/qt/util.py:199
 #: electrum/gui/qt/installwizard.py:261 electrum/gui/qt/installwizard.py:265
 #: electrum/gui/qt/installwizard.py:272 electrum/gui/qt/installwizard.py:279
 #: electrum/gui/qt/__init__.py:227 electrum/gui/qt/__init__.py:246
@@ -1680,7 +1680,7 @@ msgstr ""
 msgid "Error decrypting message"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2448
+#: electrum/gui/qt/main_window.py:2452
 msgid "Error getting transaction from network"
 msgstr ""
 
@@ -1718,7 +1718,7 @@ msgstr ""
 msgid "Exit Electrum"
 msgstr "Ukončit Electrum"
 
-#: electrum/gui/qt/history_list.py:475
+#: electrum/gui/qt/history_list.py:481
 msgid "Expenditures"
 msgstr ""
 
@@ -1739,17 +1739,17 @@ msgstr "Expirované"
 msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
 msgstr "Vypršené požadavky je třeba ručně smazat ze seznamu, aby došlo k uvolnění odpovídajících Bitcoin adres."
 
-#: electrum/gui/qt/invoice_list.py:45 electrum/gui/qt/main_window.py:1928
+#: electrum/gui/qt/invoice_list.py:45 electrum/gui/qt/main_window.py:1931
 msgid "Expires"
 msgstr "Expiruje"
 
 #: electrum/gui/qt/transaction_dialog.py:135
-#: electrum/gui/qt/history_list.py:613 electrum/gui/qt/main_window.py:537
-#: electrum/gui/qt/main_window.py:540 electrum/gui/qt/main_window.py:2481
+#: electrum/gui/qt/history_list.py:620 electrum/gui/qt/main_window.py:537
+#: electrum/gui/qt/main_window.py:540 electrum/gui/qt/main_window.py:2485
 msgid "Export"
 msgstr "Exportovat"
 
-#: electrum/gui/qt/history_list.py:605
+#: electrum/gui/qt/history_list.py:612
 msgid "Export History"
 msgstr "Exportovat Historii"
 
@@ -1761,7 +1761,7 @@ msgstr ""
 msgid "Export private key"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2468
+#: electrum/gui/qt/main_window.py:2472
 msgid "Exposing a single private key can compromise your entire wallet!"
 msgstr "Zveřejnění jediného soukromého klíče může ohrozit Vaší peněženku!"
 
@@ -1783,15 +1783,15 @@ msgstr ""
 
 #: electrum/gui/qt/transaction_dialog.py:192
 #: electrum/gui/qt/transaction_dialog.py:195
-#: electrum/gui/kivy/main_window.py:419
+#: electrum/gui/kivy/main_window.py:427
 msgid "Failed to display QR code."
 msgstr ""
 
-#: electrum/util.py:119
+#: electrum/util.py:118
 msgid "Failed to export to file."
 msgstr ""
 
-#: electrum/util.py:111
+#: electrum/util.py:110
 msgid "Failed to import from file."
 msgstr ""
 
@@ -1799,11 +1799,11 @@ msgstr ""
 msgid "Failed to send transaction to cosigning pool"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2061
+#: electrum/gui/qt/main_window.py:2065
 msgid "Failed to update password"
 msgstr "Aktualizace hesla se nezdařila"
 
-#: electrum/gui/qt/main_window.py:2109
+#: electrum/gui/qt/main_window.py:2113
 msgid "False"
 msgstr ""
 
@@ -1813,27 +1813,27 @@ msgstr ""
 msgid "Fee"
 msgstr "Poplatek"
 
-#: electrum/gui/qt/main_window.py:2742
+#: electrum/gui/qt/main_window.py:2746
 msgid "Fee estimation"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3235
+#: electrum/gui/qt/main_window.py:3239
 msgid "Fee:"
 msgstr "Poplatek:"
 
-#: electrum/gui/qt/main_window.py:3073
+#: electrum/gui/qt/main_window.py:3077
 msgid "Fees"
 msgstr "Poplatky"
 
-#: electrum/gui/qt/main_window.py:3076
+#: electrum/gui/qt/main_window.py:3080
 msgid "Fiat"
 msgstr "Fiat"
 
-#: electrum/gui/qt/main_window.py:3066
+#: electrum/gui/qt/main_window.py:3070
 msgid "Fiat currency"
 msgstr "Fiat měny"
 
-#: electrum/gui/qt/util.py:371
+#: electrum/gui/qt/util.py:376
 msgid "File"
 msgstr "Soubor"
 
@@ -1841,11 +1841,11 @@ msgstr "Soubor"
 msgid "Filter:"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3277
+#: electrum/gui/qt/main_window.py:3281
 msgid "Final"
 msgstr "Zakončení"
 
-#: electrum/gui/qt/history_list.py:469
+#: electrum/gui/qt/history_list.py:475
 msgid "Final balance"
 msgstr ""
 
@@ -1880,15 +1880,15 @@ msgstr "Následovat tuto větev"
 msgid "For more information, visit"
 msgstr ""
 
-#: electrum/gui/kivy/uix/ui_screens/network.kv:56
+#: electrum/gui/kivy/uix/ui_screens/network.kv:53
 msgid "Fork detected at block {}"
 msgstr ""
 
-#: electrum/gui/qt/util.py:347
+#: electrum/gui/qt/util.py:352
 msgid "Format"
 msgstr "Formát"
 
-#: electrum/gui/qt/main_window.py:1867
+#: electrum/gui/qt/main_window.py:1870
 msgid "Format: address, amount"
 msgstr "Formát: adresa, částka"
 
@@ -1900,7 +1900,7 @@ msgstr ""
 msgid "French"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:394 electrum/gui/qt/main_window.py:1116
+#: electrum/gui/qt/history_list.py:400 electrum/gui/qt/main_window.py:1116
 msgid "From"
 msgstr "Od"
 
@@ -1953,7 +1953,7 @@ msgstr ""
 msgid "Height"
 msgstr "Výška"
 
-#: electrum/gui/kivy/main_window.py:839
+#: electrum/gui/kivy/main_window.py:852
 msgid "Hello World"
 msgstr "Ahoj světe"
 
@@ -2008,7 +2008,7 @@ msgstr ""
 msgid "Hungarian"
 msgstr ""
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:498 electrum/base_wizard.py:168
+#: electrum/plugins/trustedcoin/trustedcoin.py:504 electrum/base_wizard.py:168
 msgid "I already have a seed"
 msgstr ""
 
@@ -2016,7 +2016,7 @@ msgstr ""
 msgid "I have lost my Google Authenticator account"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3077
+#: electrum/gui/qt/main_window.py:3081
 msgid "Identity"
 msgstr "Identita"
 
@@ -2024,7 +2024,7 @@ msgstr "Identita"
 msgid "If auto-connect is enabled, Electrum will always use a server that is on the longest blockchain."
 msgstr "Pokud je automatické připojování povolené, Electrum bude vždy používat server na nejdelším blockchainu."
 
-#: electrum/gui/qt/main_window.py:2968
+#: electrum/gui/qt/main_window.py:2972
 msgid "If enabled, at most 100 satoshis might be lost due to this, per transaction."
 msgstr ""
 
@@ -2040,11 +2040,11 @@ msgstr ""
 msgid "If you are online, click on \"{}\" to continue."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2766
+#: electrum/gui/qt/main_window.py:2770
 msgid "If you check this box, your transactions will be marked as non-final,"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2779
+#: electrum/gui/qt/main_window.py:2783
 msgid "If you check this box, your unconfirmed transactions will be consolidated into a single transaction."
 msgstr ""
 
@@ -2066,7 +2066,7 @@ msgstr ""
 msgid "If you forget your PIN or lose your device, your seed phrase will be the only way to recover your funds."
 msgstr "Jestliže zapomenete Váš PIN nebo ztratíte své zařízení, Vaše seed-semínko bude jediná možnost jak obnovit své finance."
 
-#: electrum/plugins/revealer/qt.py:745
+#: electrum/plugins/revealer/qt.py:719
 msgid "If you have an old printer, or want optimal precision"
 msgstr ""
 
@@ -2094,12 +2094,12 @@ msgstr "Pokud potřebujete vytvořit nové adresy, použijte namísto toho deter
 msgid "If your device is not detected on Windows, go to \"Settings\", \"Devices\", \"Connected devices\", and do \"Remove device\". Then, plug your device again."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2155
+#: electrum/gui/qt/main_window.py:2159
 msgid "If your wallet contains funds, make sure you have saved its seed."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:536 electrum/gui/qt/main_window.py:539
-#: electrum/gui/qt/main_window.py:2643
+#: electrum/gui/qt/main_window.py:2647
 msgid "Import"
 msgstr "Importovat"
 
@@ -2111,7 +2111,7 @@ msgstr "Import Bitcoinových adres"
 msgid "Import Bitcoin addresses or private keys"
 msgstr "Import Bitcoinových adres nebo privátních klíčů"
 
-#: electrum/gui/qt/main_window.py:521 electrum/gui/qt/main_window.py:2664
+#: electrum/gui/qt/main_window.py:521 electrum/gui/qt/main_window.py:2668
 msgid "Import addresses"
 msgstr "Importovat adresy"
 
@@ -2123,15 +2123,15 @@ msgstr "Importovat soubor"
 msgid "Import pairing from the Digital Bitbox desktop app"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2671
+#: electrum/gui/qt/main_window.py:2675
 msgid "Import private keys"
 msgstr "Importovat soukromý klíč"
 
-#: electrum/gui/qt/main_window.py:2469
+#: electrum/gui/qt/main_window.py:2473
 msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
 msgstr "Důležité: Nepoužívejte službu \"odkoupení soukromého klíče\" navržené třetími stranami."
 
-#: electrum/gui/qt/main_window.py:2924
+#: electrum/gui/qt/main_window.py:2928
 msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
 msgstr "V některých případech použijte až 3 adresy, aby se rozdělila velká částka mincí a skryla adresu příjemce."
 
@@ -2139,11 +2139,11 @@ msgstr "V některých případech použijte až 3 adresy, aby se rozdělila velk
 msgid "In the next block"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:472
+#: electrum/gui/qt/history_list.py:478
 msgid "Income"
 msgstr ""
 
-#: electrum/util.py:103
+#: electrum/util.py:102
 msgid "Incorrect password"
 msgstr ""
 
@@ -2151,15 +2151,15 @@ msgstr ""
 msgid "Incorrect password entered."
 msgstr ""
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:699
+#: electrum/plugins/trustedcoin/trustedcoin.py:705
 msgid "Incorrect seed"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:568
+#: electrum/gui/qt/history_list.py:575
 msgid "Increase fee"
 msgstr "Navýšit poplatek"
 
-#: electrum/gui/qt/main_window.py:3265
+#: electrum/gui/qt/main_window.py:3269
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr ""
 
@@ -2173,7 +2173,7 @@ msgstr ""
 msgid "Information"
 msgstr "Informace"
 
-#: electrum/gui/qt/history_list.py:463
+#: electrum/gui/qt/history_list.py:469
 msgid "Initial balance"
 msgstr ""
 
@@ -2192,11 +2192,11 @@ msgstr ""
 msgid "Initialized"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3222
+#: electrum/gui/qt/main_window.py:3226
 msgid "Input amount"
 msgstr "Zadejte částku"
 
-#: electrum/gui/qt/main_window.py:2427
+#: electrum/gui/qt/main_window.py:2431
 msgid "Input raw transaction"
 msgstr "Zadejte raw transakci transakci"
 
@@ -2208,19 +2208,19 @@ msgstr "Vstupy"
 msgid "Install Wizard"
 msgstr "Průvodce instalací"
 
-#: electrum/gui/qt/main_window.py:2883
+#: electrum/gui/qt/main_window.py:2887
 msgid "Install the zbar package to enable this."
 msgstr "Nainstalujte balíček zbar, aby bylo toto možné."
 
-#: electrum/plugins/revealer/qt.py:475
+#: electrum/plugins/revealer/qt.py:447
 msgid "Instructions:"
 msgstr ""
 
-#: electrum/util.py:93
+#: electrum/util.py:92
 msgid "Insufficient funds"
 msgstr "Nedostatek finančních prostředků"
 
-#: electrum/gui/qt/main_window.py:1885
+#: electrum/gui/qt/main_window.py:1888
 msgid "Invalid Address"
 msgstr "Neplatná adresa"
 
@@ -2238,8 +2238,8 @@ msgstr "Neplatná bitcoinová adresa"
 msgid "Invalid Bitcoin address"
 msgstr ""
 
-#: electrum/wallet.py:1042 electrum/gui/qt/main_window.py:2229
-#: electrum/gui/qt/main_window.py:2257
+#: electrum/wallet.py:1042 electrum/gui/qt/main_window.py:2233
+#: electrum/gui/qt/main_window.py:2261
 msgid "Invalid Bitcoin address."
 msgstr "Neplatná bitcoinová adresa."
 
@@ -2247,7 +2247,7 @@ msgstr "Neplatná bitcoinová adresa."
 msgid "Invalid Fee"
 msgstr ""
 
-#: electrum/util.py:859
+#: electrum/util.py:848
 msgid "Invalid JSON code."
 msgstr ""
 
@@ -2256,11 +2256,11 @@ msgid "Invalid Lines found:"
 msgstr "Nalezeny neplatné řádky:"
 
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:174
-#: electrum/gui/kivy/main_window.py:901
+#: electrum/gui/kivy/main_window.py:914
 msgid "Invalid PIN"
 msgstr "Neplatný PIN"
 
-#: electrum/gui/qt/main_window.py:2331
+#: electrum/gui/qt/main_window.py:2335
 msgid "Invalid Public key"
 msgstr ""
 
@@ -2268,12 +2268,13 @@ msgstr ""
 msgid "Invalid amount"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1765
+#: electrum/gui/qt/main_window.py:1768
 msgid "Invalid bitcoin URI:"
 msgstr "Neplatná bitcoin URI:"
 
 #: electrum/plugins/trustedcoin/kivy.py:67
-#: electrum/plugins/trustedcoin/trustedcoin.py:678
+#: electrum/plugins/trustedcoin/trustedcoin.py:326
+#: electrum/plugins/trustedcoin/trustedcoin.py:684
 msgid "Invalid one-time password."
 msgstr ""
 
@@ -2281,7 +2282,7 @@ msgstr ""
 msgid "Invalid xpub magic. Make sure your {} device is set to the correct chain."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1914
+#: electrum/gui/qt/main_window.py:1917
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:17
 msgid "Invoice"
 msgstr "Faktura"
@@ -2290,7 +2291,7 @@ msgstr "Faktura"
 msgid "Invoice saved"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1937
+#: electrum/gui/qt/main_window.py:1941
 msgid "Invoice saved as "
 msgstr "Faktura uložena jako "
 
@@ -2303,11 +2304,11 @@ msgstr "Faktury"
 msgid "It also contains your master public key that allows watching your addresses."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2461
+#: electrum/gui/qt/main_window.py:2465
 msgid "It cannot be \"backed up\" by simply exporting these private keys."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3302
+#: electrum/gui/qt/main_window.py:3306
 msgid "It conflicts with current history."
 msgstr ""
 
@@ -2339,7 +2340,7 @@ msgstr "Klávesová zkratka: napište \"!\" pro odeslání všech mincí."
 msgid "Keystore"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2122
+#: electrum/gui/qt/main_window.py:2126
 msgid "Keystore type"
 msgstr ""
 
@@ -2364,7 +2365,7 @@ msgid "Labels, transactions IDs and addresses are encrypted before they are sent
 msgstr ""
 
 #: electrum/plugins/trezor/qt.py:436 electrum/plugins/keepkey/qt.py:464
-#: electrum/plugins/safe_t/qt.py:346 electrum/gui/qt/main_window.py:2698
+#: electrum/plugins/safe_t/qt.py:346 electrum/gui/qt/main_window.py:2702
 #: electrum/gui/kivy/uix/dialogs/settings.py:131
 msgid "Language"
 msgstr "Jazyk"
@@ -2393,7 +2394,7 @@ msgstr ""
 msgid "Legacy"
 msgstr ""
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:505
+#: electrum/plugins/trustedcoin/trustedcoin.py:511
 msgid "Legacy 2FA"
 msgstr ""
 
@@ -2411,7 +2412,7 @@ msgstr ""
 msgid "Licence"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2891
+#: electrum/gui/qt/main_window.py:2895
 msgid "Light"
 msgstr ""
 
@@ -2427,7 +2428,7 @@ msgstr ""
 msgid "Load a wallet from the micro SD card (the current seed is overwritten)"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2427
+#: electrum/gui/qt/main_window.py:2431
 msgid "Load transaction"
 msgstr "Nahrát transakci"
 
@@ -2439,7 +2440,7 @@ msgstr ""
 msgid "Local"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2441
+#: electrum/gui/qt/main_window.py:2445
 msgid "Lookup transaction"
 msgstr "Vyhledat transakci"
 
@@ -2467,16 +2468,16 @@ msgstr "Ujistěte se, že vlastníte seed-semínko nebo soukromé klíče před 
 msgid "Master Fingerprint"
 msgstr ""
 
-#: electrum/gui/qt/installwizard.py:581 electrum/gui/qt/main_window.py:2143
+#: electrum/gui/qt/installwizard.py:581 electrum/gui/qt/main_window.py:2147
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:890
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:894
 #: electrum/gui/kivy/uix/ui_screens/status.kv:58
 #: electrum/gui/kivy/uix/ui_screens/status.kv:61
-#: electrum/gui/kivy/main_window.py:625 electrum/gui/kivy/main_window.py:627
+#: electrum/gui/kivy/main_window.py:633 electrum/gui/kivy/main_window.py:635
 msgid "Master Public Key"
 msgstr "Hlavní veřejný klíč"
 
-#: electrum/gui/qt/main_window.py:2140
+#: electrum/gui/qt/main_window.py:2144
 msgid "Master Public Keys"
 msgstr "Hlavní veřejné klíče"
 
@@ -2488,19 +2489,19 @@ msgstr ""
 msgid "Max"
 msgstr "Maximum"
 
-#: electrum/gui/qt/main_window.py:3250
+#: electrum/gui/qt/main_window.py:3254
 msgid "Max fee exceeded"
 msgstr "Maximální poplatek překročen"
 
-#: electrum/gui/qt/main_window.py:1923
+#: electrum/gui/qt/main_window.py:1926
 msgid "Memo"
 msgstr "Poznámka"
 
-#: electrum/gui/qt/main_window.py:2744
+#: electrum/gui/qt/main_window.py:2748
 msgid "Mempool"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2739
+#: electrum/gui/qt/main_window.py:2743
 msgid "Mempool based: fee rate is targeting a depth in the memory pool"
 msgstr ""
 
@@ -2508,7 +2509,7 @@ msgstr ""
 msgid "Mempool depth"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2277 electrum/gui/qt/main_window.py:2343
+#: electrum/gui/qt/main_window.py:2281 electrum/gui/qt/main_window.py:2347
 msgid "Message"
 msgstr "Zpráva"
 
@@ -2540,6 +2541,10 @@ msgstr ""
 msgid "Mobile pairing options"
 msgstr ""
 
+#: electrum/plugins/revealer/qt.py:213
+msgid "More info at: {}"
+msgstr ""
+
 #: electrum/gui/qt/installwizard.py:638
 msgid "Multi-Signature Wallet"
 msgstr "Více-podpisová peněženka"
@@ -2553,7 +2558,7 @@ msgstr ""
 msgid "NOT DEVICE PIN - see above"
 msgstr ""
 
-#: electrum/gui/qt/contact_list.py:96 electrum/gui/qt/main_window.py:2094
+#: electrum/gui/qt/contact_list.py:96 electrum/gui/qt/main_window.py:2098
 msgid "Name"
 msgstr "Jméno"
 
@@ -2563,12 +2568,12 @@ msgid "Name this {}.  If you have multiple devices their labels help distinguish
 msgstr ""
 
 #: electrum/gui/text.py:155 electrum/gui/qt/network_dialog.py:47
-#: electrum/gui/qt/main_window.py:2014
-#: electrum/gui/kivy/uix/ui_screens/network.kv:3 electrum/gui/kivy/main.kv:453
+#: electrum/gui/qt/main_window.py:2018
+#: electrum/gui/kivy/uix/ui_screens/network.kv:3 electrum/gui/kivy/main.kv:451
 msgid "Network"
 msgstr "Síť"
 
-#: electrum/interface.py:120
+#: electrum/interface.py:132
 msgid "Network request timed out."
 msgstr ""
 
@@ -2591,7 +2596,7 @@ msgstr "Nikdy ho nezadávejte na žádné webové stránce."
 msgid "New"
 msgstr "Nový"
 
-#: electrum/gui/qt/main_window.py:2084 electrum/gui/qt/main_window.py:2086
+#: electrum/gui/qt/main_window.py:2088 electrum/gui/qt/main_window.py:2090
 msgid "New Contact"
 msgstr "Nový kontakt"
 
@@ -2603,7 +2608,7 @@ msgstr "Nové heslo:"
 msgid "New contact"
 msgstr "Nový kontakt"
 
-#: electrum/gui/qt/main_window.py:3267
+#: electrum/gui/qt/main_window.py:3271
 msgid "New fee:"
 msgstr "Nový poplatek:"
 
@@ -2611,7 +2616,7 @@ msgstr "Nový poplatek:"
 msgid "New transaction received: {}"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:123 electrum/plugins/trustedcoin/qt.py:206
+#: electrum/plugins/revealer/qt.py:119 electrum/plugins/trustedcoin/qt.py:206
 #: electrum/gui/qt/installwizard.py:124
 msgid "Next"
 msgstr "Další"
@@ -2625,7 +2630,7 @@ msgstr ""
 msgid "No Amount"
 msgstr ""
 
-#: electrum/util.py:176
+#: electrum/util.py:175
 msgid "No Data"
 msgstr ""
 
@@ -2633,7 +2638,7 @@ msgstr ""
 msgid "No Description"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:196
+#: electrum/gui/kivy/main_window.py:203
 msgid "No Wallet"
 msgstr "Žádná peněženka"
 
@@ -2649,7 +2654,7 @@ msgstr "U tohoto serveru není uvedena adresa pro dary"
 msgid "No exceptions encountered."
 msgstr ""
 
-#: electrum/gui/kivy/uix/ui_screens/network.kv:56
+#: electrum/gui/kivy/uix/ui_screens/network.kv:53
 msgid "No fork detected"
 msgstr ""
 
@@ -2661,7 +2666,7 @@ msgstr ""
 msgid "No inputs found. (Note that inputs need to be confirmed)"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2123
+#: electrum/gui/qt/main_window.py:2127
 msgid "No keystore"
 msgstr ""
 
@@ -2677,26 +2682,26 @@ msgstr "Žádné další adresy ve Vaší peněžence."
 msgid "No outputs"
 msgstr "Žádné výstupy"
 
-#: electrum/gui/kivy/main_window.py:959
+#: electrum/gui/kivy/main_window.py:975
 msgid "No saved invoices."
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:971
+#: electrum/gui/kivy/main_window.py:987
 msgid "No saved requests."
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:313
+#: electrum/gui/kivy/main_window.py:321
 msgid "No wallet loaded."
 msgstr ""
 
-#: electrum/gui/qt/network_dialog.py:352 electrum/gui/qt/history_list.py:375
-#: electrum/gui/qt/main_window.py:2984
+#: electrum/gui/qt/network_dialog.py:352 electrum/gui/qt/history_list.py:381
+#: electrum/gui/qt/main_window.py:2988
 #: electrum/gui/kivy/uix/dialogs/fx_dialog.py:97
 #: electrum/gui/kivy/uix/dialogs/fx_dialog.py:98
 #: electrum/gui/kivy/uix/dialogs/fx_dialog.py:103
 #: electrum/gui/kivy/uix/dialogs/settings.py:159
 #: electrum/gui/kivy/uix/dialogs/settings.py:217
-#: electrum/gui/kivy/uix/ui_screens/network.kv:30
+#: electrum/gui/kivy/main_window.py:117
 msgid "None"
 msgstr "Žádný"
 
@@ -2719,7 +2724,7 @@ msgstr ""
 #: electrum/gui/text.py:148 electrum/gui/qt/network_dialog.py:363
 #: electrum/gui/qt/main_window.py:782 electrum/gui/qt/main_window.py:784
 #: electrum/gui/stdio.py:125 electrum/gui/kivy/uix/ui_screens/network.kv:14
-#: electrum/gui/kivy/main_window.py:934
+#: electrum/gui/kivy/main_window.py:950
 msgid "Not connected"
 msgstr "Nepřipojeno"
 
@@ -2739,7 +2744,7 @@ msgstr ""
 msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
 msgstr "Pozn.: Pokud jste zmrazili některé ze svých adres, Vaše dostupné finanční prostředky budou nižší, než celková bilance."
 
-#: electrum/gui/qt/main_window.py:2768
+#: electrum/gui/qt/main_window.py:2772
 msgid "Note that some merchants do not accept non-final transactions until they are confirmed."
 msgstr "Počítejte s tím, že někteří obchodníci nepřijímají non-final transakce dokud nejsou potvrzeny."
 
@@ -2756,7 +2761,7 @@ msgstr ""
 msgid "Note: If you enable this setting, you will need your hardware device to open your wallet."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3312
+#: electrum/gui/qt/main_window.py:3316
 msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
 msgstr ""
 
@@ -2768,11 +2773,11 @@ msgstr "Nic nenastaveno!"
 msgid "Nothing to plot."
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:451
+#: electrum/gui/qt/history_list.py:457
 msgid "Nothing to summarize."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2719
+#: electrum/gui/qt/main_window.py:2723
 msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
 msgstr "Počet nul zobrazených za desetinnou čárkou. Například, pokud je nastaveno na 2, \"1.\" bude zobrazeno jako \"1.00\""
 
@@ -2782,12 +2787,12 @@ msgstr "Počet nul zobrazených za desetinnou čárkou. Například, pokud je na
 msgid "OK"
 msgstr "Ok"
 
-#: electrum/plugins/revealer/qt.py:255
+#: electrum/plugins/revealer/qt.py:247
 msgid "OR"
 msgstr ""
 
 #: electrum/gui/text.py:136 electrum/gui/qt/__init__.py:188
-#: electrum/gui/qt/main_window.py:748 electrum/gui/kivy/main_window.py:720
+#: electrum/gui/qt/main_window.py:748 electrum/gui/kivy/main_window.py:733
 msgid "Offline"
 msgstr "Offline"
 
@@ -2800,15 +2805,15 @@ msgstr ""
 msgid "On Linux, you might have to add a new permission to your udev rules."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1866
+#: electrum/gui/qt/main_window.py:1869
 msgid "One output per line."
 msgstr "Jeden zápis na řádek."
 
-#: electrum/gui/kivy/uix/ui_screens/network.kv:42
+#: electrum/gui/kivy/uix/ui_screens/network.kv:39
 msgid "One-server mode"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2864
+#: electrum/gui/qt/main_window.py:2868
 msgid "Online Block Explorer"
 msgstr "Online Průzkumník bloků"
 
@@ -2816,7 +2821,7 @@ msgstr "Online Průzkumník bloků"
 msgid "Only OP_RETURN scripts, with one constant push, are supported."
 msgstr ""
 
-#: electrum/gui/kivy/uix/ui_screens/network.kv:43
+#: electrum/gui/kivy/uix/ui_screens/network.kv:40
 msgid "Only connect to a single server"
 msgstr ""
 
@@ -2825,7 +2830,7 @@ msgstr ""
 msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:750
+#: electrum/plugins/revealer/qt.py:724
 msgid "Open calibration pdf"
 msgstr ""
 
@@ -2833,15 +2838,15 @@ msgstr ""
 msgid "Open your cosigner wallet to retrieve it."
 msgstr ""
 
-#: electrum/gui/qt/util.py:747
+#: electrum/gui/qt/util.py:752
 msgid "Open {} file"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2790
+#: electrum/gui/qt/main_window.py:2794
 msgid "OpenAlias"
 msgstr "OpenAlias"
 
-#: electrum/gui/qt/main_window.py:2786
+#: electrum/gui/qt/main_window.py:2790
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "OpenAlias záznam, používán k obdržení mincí a k podepsání vyžádané platby."
 
@@ -2855,7 +2860,7 @@ msgstr "Možnosti"
 msgid "Outdated {} firmware for device labelled {}. Please download the updated firmware from {}"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3225
+#: electrum/gui/qt/main_window.py:3229
 msgid "Output amount"
 msgstr "Výstupní částka"
 
@@ -2877,11 +2882,11 @@ msgstr "Přehled"
 msgid "PIN Protection"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:1059
+#: electrum/gui/kivy/main_window.py:1075
 msgid "PIN codes do not match"
 msgstr ""
 
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:1034
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:1038
 msgid "PIN mismatch"
 msgstr "PIN se neshoduje"
 
@@ -2907,7 +2912,7 @@ msgstr ""
 msgid "Partially signed"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:1042
+#: electrum/gui/kivy/main_window.py:1058
 msgid "Passphrase"
 msgstr "Heslo"
 
@@ -2926,7 +2931,7 @@ msgid "Passphrases allow you to access new wallets, each hidden behind a particu
 msgstr ""
 
 #: electrum/gui/qt/network_dialog.py:256 electrum/gui/qt/installwizard.py:179
-#: electrum/gui/qt/password_dialog.py:297 electrum/gui/qt/main_window.py:2008
+#: electrum/gui/qt/password_dialog.py:297 electrum/gui/qt/main_window.py:2012
 #: electrum/gui/kivy/uix/ui_screens/proxy.kv:47
 msgid "Password"
 msgstr "Heslo"
@@ -2935,7 +2940,7 @@ msgstr "Heslo"
 msgid "Password Strength"
 msgstr "Síla hesla"
 
-#: electrum/gui/qt/main_window.py:2063
+#: electrum/gui/qt/main_window.py:2067
 msgid "Password is disabled, this wallet is not protected"
 msgstr "Heslo není použito, tato peněženka není chráněna"
 
@@ -2949,7 +2954,7 @@ msgstr ""
 msgid "Password must have less than 64 characters."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2063
+#: electrum/gui/qt/main_window.py:2067
 msgid "Password was updated successfully"
 msgstr "Heslo bylo úspěšně aktualizováno"
 
@@ -2965,7 +2970,7 @@ msgstr ""
 msgid "Pay"
 msgstr ""
 
-#: electrum/gui/qt/invoice_list.py:87
+#: electrum/gui/qt/invoice_list.py:89
 msgid "Pay Now"
 msgstr "Zaplatit nyní"
 
@@ -2974,7 +2979,7 @@ msgstr "Zaplatit nyní"
 msgid "Pay to"
 msgstr "Komu"
 
-#: electrum/gui/qt/main_window.py:1870
+#: electrum/gui/qt/main_window.py:1873
 msgid "Pay to many"
 msgstr "Hromadná platba"
 
@@ -2987,12 +2992,12 @@ msgid "Payment received"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1508 electrum/gui/qt/main_window.py:1661
-#: electrum/gui/kivy/uix/screens.py:245 electrum/gui/kivy/main_window.py:325
+#: electrum/gui/kivy/uix/screens.py:245 electrum/gui/kivy/main_window.py:333
 msgid "Payment request has expired"
 msgstr "Požadavek platby vypršel"
 
-#: electrum/gui/text.py:375 electrum/gui/qt/main_window.py:1689
-#: electrum/gui/stdio.py:211 electrum/gui/kivy/main_window.py:919
+#: electrum/gui/text.py:377 electrum/gui/qt/main_window.py:1689
+#: electrum/gui/stdio.py:213 electrum/gui/kivy/main_window.py:932
 msgid "Payment sent."
 msgstr "Platba odeslána."
 
@@ -3001,7 +3006,7 @@ msgstr "Platba odeslána."
 msgid "Pending"
 msgstr "Čekající"
 
-#: electrum/gui/qt/history_list.py:491
+#: electrum/gui/qt/history_list.py:497
 msgid "Perhaps some dependencies are missing..."
 msgstr ""
 
@@ -3025,7 +3030,7 @@ msgstr ""
 msgid "Please check your {} device"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:587
+#: electrum/gui/qt/history_list.py:594
 msgid "Please confirm"
 msgstr ""
 
@@ -3082,7 +3087,7 @@ msgstr "Chyby a problémy prosím hlaste přes github:<br/>"
 msgid "Please report this issue manually."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3108
+#: electrum/gui/qt/main_window.py:3112
 msgid "Please restart Electrum to activate the new GUI settings"
 msgstr "Pro aktivaci změn prosím restartujte Electrum"
 
@@ -3128,7 +3133,7 @@ msgstr "Prosím zadejte Váš seed-semínko pomocí virtuální klávesnice."
 msgid "Please use the existing requests first."
 msgstr ""
 
-#: electrum/gui/qt/util.py:239
+#: electrum/gui/qt/util.py:244
 msgid "Please wait"
 msgstr "Chvíli strpení"
 
@@ -3157,7 +3162,7 @@ msgid "Position in mempool: {} from tip"
 msgstr "Pozice v mempool-u: {} od vršku"
 
 #: electrum/gui/qt/main_window.py:559 electrum/gui/qt/main_window.py:1208
-#: electrum/gui/qt/main_window.py:2011 electrum/gui/qt/main_window.py:2688
+#: electrum/gui/qt/main_window.py:2015 electrum/gui/qt/main_window.py:2692
 msgid "Preferences"
 msgstr "Nastavení"
 
@@ -3181,7 +3186,7 @@ msgstr "Stiskněte 'Další' pro otevření této peněženky."
 msgid "Press Enter"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:600
+#: electrum/gui/kivy/main_window.py:608
 msgid "Press again to exit"
 msgstr "Stiskněte znovu pro ukončení"
 
@@ -3189,7 +3194,7 @@ msgstr "Stiskněte znovu pro ukončení"
 msgid "Preview"
 msgstr "Náhled"
 
-#: electrum/plugins/revealer/qt.py:68
+#: electrum/plugins/revealer/qt.py:65
 msgid "Printer Calibration"
 msgstr ""
 
@@ -3197,18 +3202,22 @@ msgstr ""
 msgid "Private Key"
 msgstr ""
 
-#: electrum/gui/qt/address_list.py:178 electrum/gui/qt/main_window.py:2200
-#: electrum/gui/qt/main_window.py:2205
+#: electrum/gui/qt/address_list.py:178 electrum/gui/qt/main_window.py:2204
+#: electrum/gui/qt/main_window.py:2209
 msgid "Private key"
 msgstr "Soukromý klíč"
 
-#: electrum/gui/qt/main_window.py:2463
+#: electrum/gui/qt/main_window.py:2467
 msgid "Private keys"
 msgstr "Soukromé klíče"
 
-#: electrum/gui/qt/main_window.py:2543
+#: electrum/gui/qt/main_window.py:2547
 msgid "Private keys exported."
 msgstr "Soukromé klíče exportovány."
+
+#: electrum/plugins/revealer/qt.py:214
+msgid "Proceed at your own risk."
+msgstr ""
 
 #: electrum/gui/qt/main_window.py:1618
 msgid "Proceed?"
@@ -3236,11 +3245,11 @@ msgstr ""
 
 #: electrum/gui/qt/network_dialog.py:204
 #: electrum/gui/kivy/uix/ui_screens/proxy.kv:3
-#: electrum/gui/kivy/uix/ui_screens/network.kv:30
+#: electrum/gui/kivy/uix/ui_screens/network.kv:27
 msgid "Proxy"
 msgstr "Proxy"
 
-#: electrum/gui/kivy/uix/ui_screens/network.kv:31
+#: electrum/gui/kivy/uix/ui_screens/network.kv:28
 msgid "Proxy configuration"
 msgstr "Nastavení proxy"
 
@@ -3260,7 +3269,7 @@ msgstr "Uživatel serveru proxy"
 msgid "Pruned transaction outputs"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2351
+#: electrum/gui/qt/main_window.py:2355
 msgid "Public key"
 msgstr "Veřejný klíč"
 
@@ -3268,7 +3277,7 @@ msgstr "Veřejný klíč"
 msgid "Public keys"
 msgstr "Veřejné klíče"
 
-#: electrum/gui/qt/main_window.py:2183
+#: electrum/gui/qt/main_window.py:2187
 msgid "QR code"
 msgstr "QR kód"
 
@@ -3319,12 +3328,12 @@ msgstr "Načíst soubor"
 msgid "Read from microphone"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:244
+#: electrum/plugins/revealer/qt.py:235
 msgid "Ready to encrypt for revealer {}"
 msgstr ""
 
 #: electrum/gui/text.py:69 electrum/gui/qt/main_window.py:165
-#: electrum/gui/kivy/main.kv:398
+#: electrum/gui/kivy/main.kv:396
 msgid "Receive"
 msgstr "Příjem"
 
@@ -3359,11 +3368,11 @@ msgstr "Příjemce financí."
 msgid "Recover from a seed you have previously written down"
 msgstr ""
 
-#: electrum/gui/qt/address_dialog.py:84 electrum/gui/qt/main_window.py:2210
+#: electrum/gui/qt/address_dialog.py:84 electrum/gui/qt/main_window.py:2214
 msgid "Redeem Script"
 msgstr "Načíst Script"
 
-#: electrum/gui/qt/history_list.py:556 electrum/gui/qt/main_window.py:1435
+#: electrum/gui/qt/history_list.py:562 electrum/gui/qt/main_window.py:1435
 msgid "Remove"
 msgstr "Odstranit"
 
@@ -3371,7 +3380,7 @@ msgstr "Odstranit"
 msgid "Remove from wallet"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1895
+#: electrum/gui/qt/main_window.py:1898
 msgid "Remove {} from your list of contacts?"
 msgstr ""
 
@@ -3407,7 +3416,7 @@ msgstr "Požadavek vyprší"
 msgid "Request payment"
 msgstr ""
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:715
+#: electrum/plugins/trustedcoin/trustedcoin.py:721
 msgid "Request rejected by server"
 msgstr ""
 
@@ -3432,7 +3441,7 @@ msgstr "Požadovaná částka"
 msgid "Requesting account info from TrustedCoin server..."
 msgstr ""
 
-#: electrum/gui/qt/invoice_list.py:45 electrum/gui/qt/main_window.py:1917
+#: electrum/gui/qt/invoice_list.py:45 electrum/gui/qt/main_window.py:1920
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:40
 msgid "Requestor"
 msgstr "Žadatel"
@@ -3455,7 +3464,7 @@ msgstr ""
 msgid "Required package 'PIL' is not available - Please install it."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3194
+#: electrum/gui/qt/main_window.py:3198
 msgid "Requires"
 msgstr "Požadavek"
 
@@ -3463,15 +3472,15 @@ msgstr "Požadavek"
 msgid "Reset"
 msgstr ""
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:580
+#: electrum/plugins/trustedcoin/trustedcoin.py:586
 msgid "Restore 2FA wallet"
 msgstr ""
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:569
+#: electrum/plugins/trustedcoin/trustedcoin.py:575
 msgid "Restore two-factor Wallet"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:740
+#: electrum/plugins/revealer/qt.py:714
 msgid "Revealer - Printer calibration settings"
 msgstr ""
 
@@ -3479,15 +3488,15 @@ msgstr ""
 msgid "Revealer Backup Utility"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:108 electrum/plugins/revealer/qt.py:243
+#: electrum/plugins/revealer/qt.py:104 electrum/plugins/revealer/qt.py:234
 msgid "Revealer Secret Backup Plugin"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:178
-msgid "Revealers starting with 0 had a vulnerability and are not supported."
+#: electrum/plugins/revealer/qt.py:212
+msgid "Revealers starting with 0 are not secure due to a vulnerability."
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:757
+#: electrum/plugins/revealer/qt.py:731
 msgid "Right side"
 msgstr ""
 
@@ -3499,11 +3508,11 @@ msgstr ""
 msgid "Russian"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2828
+#: electrum/gui/qt/main_window.py:2832
 msgid "SSL certificate"
 msgstr "SSL certifikát"
 
-#: electrum/gui/qt/main_window.py:2815
+#: electrum/gui/qt/main_window.py:2819
 msgid "SSL certificate used to sign payment requests."
 msgstr "SSL certifikát použitý k podepsání platebních požadavků."
 
@@ -3513,7 +3522,7 @@ msgstr ""
 
 #: electrum/gui/qt/transaction_dialog.py:126
 #: electrum/gui/qt/qrcodewidget.py:122 electrum/gui/qt/main_window.py:879
-#: electrum/gui/qt/main_window.py:1938
+#: electrum/gui/qt/main_window.py:1942
 msgid "Save"
 msgstr "Uložit"
 
@@ -3525,7 +3534,7 @@ msgstr ""
 msgid "Save as BIP70 file"
 msgstr "Uložit jako BIP70 soubor"
 
-#: electrum/gui/qt/main_window.py:1932
+#: electrum/gui/qt/main_window.py:1936
 msgid "Save invoice to file"
 msgstr "Uložit fakturu do souboru"
 
@@ -3545,7 +3554,7 @@ msgstr ""
 msgid "Scrambled words"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2117 electrum/gui/qt/main_window.py:2204
+#: electrum/gui/qt/main_window.py:2121 electrum/gui/qt/main_window.py:2208
 msgid "Script type"
 msgstr ""
 
@@ -3557,8 +3566,8 @@ msgstr ""
 msgid "Security Card Challenge"
 msgstr ""
 
-#: electrum/gui/qt/seed_dialog.py:202 electrum/gui/qt/main_window.py:2012
-#: electrum/gui/kivy/main_window.py:1040
+#: electrum/gui/qt/seed_dialog.py:202 electrum/gui/qt/main_window.py:2016
+#: electrum/gui/kivy/main_window.py:1056
 msgid "Seed"
 msgstr "Seed-semínko"
 
@@ -3570,7 +3579,7 @@ msgstr ""
 msgid "Seed Type"
 msgstr "Typ seed-semínka"
 
-#: electrum/gui/qt/main_window.py:2119
+#: electrum/gui/qt/main_window.py:2123
 msgid "Seed available"
 msgstr ""
 
@@ -3582,7 +3591,7 @@ msgstr ""
 msgid "Segwit"
 msgstr ""
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:504
+#: electrum/plugins/trustedcoin/trustedcoin.py:510
 msgid "Segwit 2FA"
 msgstr ""
 
@@ -3594,19 +3603,19 @@ msgstr ""
 msgid "Select a device"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:429
+#: electrum/gui/qt/history_list.py:435
 msgid "Select date"
 msgstr "Vybrat datum"
 
-#: electrum/gui/qt/main_window.py:2477
+#: electrum/gui/qt/main_window.py:2481
 msgid "Select file to export your private keys to"
 msgstr "Vyberte soubor, kam se exportují Vaše soukromé klíče"
 
-#: electrum/gui/qt/history_list.py:609
+#: electrum/gui/qt/history_list.py:616
 msgid "Select file to export your wallet transactions to"
 msgstr "Vyberte soubor pro export transakcí Vaší peněženky"
 
-#: electrum/gui/qt/util.py:761
+#: electrum/gui/qt/util.py:766
 msgid "Select file to save your {}"
 msgstr ""
 
@@ -3634,7 +3643,7 @@ msgstr "Vyberte kde uložit Váš platební požadavek"
 msgid "Select where to save your signed transaction"
 msgstr "Vyberte kam uložit Vaše podepsané transakce"
 
-#: electrum/gui/qt/main_window.py:2697
+#: electrum/gui/qt/main_window.py:2701
 msgid "Select which language is used in the GUI (after restart)."
 msgstr "Vyberte jazyk rozhraní aplikace (po restartu)."
 
@@ -3643,16 +3652,16 @@ msgstr "Vyberte jazyk rozhraní aplikace (po restartu)."
 msgid "Select your seed length:"
 msgstr ""
 
-#: electrum/gui/kivy/uix/ui_screens/network.kv:37
+#: electrum/gui/kivy/uix/ui_screens/network.kv:34
 msgid "Select your server automatically"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2415
+#: electrum/gui/qt/main_window.py:2419
 msgid "Select your transaction file"
 msgstr "Vyberte soubor Vaší transakce"
 
 #: electrum/gui/text.py:69 electrum/gui/qt/main_window.py:164
-#: electrum/gui/qt/main_window.py:1246 electrum/gui/kivy/main.kv:390
+#: electrum/gui/qt/main_window.py:1246 electrum/gui/kivy/main.kv:388
 msgid "Send"
 msgstr "Odeslat"
 
@@ -3680,7 +3689,7 @@ msgstr ""
 msgid "Send via e-mail"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:931
+#: electrum/gui/kivy/main_window.py:947
 msgid "Sending"
 msgstr "Odesílám"
 
@@ -3707,7 +3716,7 @@ msgstr ""
 msgid "Server is lagging ({} blocks)"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:728
+#: electrum/gui/kivy/main_window.py:741
 msgid "Server lagging"
 msgstr ""
 
@@ -3733,7 +3742,7 @@ msgstr ""
 msgid "Set a PIN"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2966
+#: electrum/gui/qt/main_window.py:2970
 msgid "Set the value of the change output so that it has similar precision to the other outputs."
 msgstr ""
 
@@ -3744,7 +3753,7 @@ msgstr ""
 #: electrum/plugins/email_requests/qt.py:206 electrum/plugins/trezor/qt.py:576
 #: electrum/plugins/keepkey/qt.py:581 electrum/plugins/safe_t/qt.py:486
 #: electrum/plugins/labels/qt.py:32 electrum/plugins/audio_modem/qt.py:46
-#: electrum/gui/text.py:155 electrum/gui/kivy/main.kv:456
+#: electrum/gui/text.py:155 electrum/gui/kivy/main.kv:454
 msgid "Settings"
 msgstr "Nastavení"
 
@@ -3761,7 +3770,7 @@ msgstr ""
 msgid "Show"
 msgstr "Zobrazit"
 
-#: electrum/gui/qt/main_window.py:3069
+#: electrum/gui/qt/main_window.py:3073
 msgid "Show Fiat balance for addresses"
 msgstr ""
 
@@ -3774,15 +3783,15 @@ msgstr "Zobrazit QR kód"
 msgid "Show as QR code"
 msgstr "Zobrazit jako QR kód"
 
-#: electrum/gui/qt/main_window.py:3068
+#: electrum/gui/qt/main_window.py:3072
 msgid "Show capital gains in history"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2755
+#: electrum/gui/qt/main_window.py:2759
 msgid "Show fee edit box in send tab."
 msgstr "Zobrazit políčko poplatku v odesílacím okně."
 
-#: electrum/gui/qt/main_window.py:3067
+#: electrum/gui/qt/main_window.py:3071
 msgid "Show history rates"
 msgstr "Zobrazit historické sazby"
 
@@ -3818,11 +3827,11 @@ msgid "Showing address ..."
 msgstr ""
 
 #: electrum/gui/qt/transaction_dialog.py:120
-#: electrum/gui/qt/main_window.py:2293
+#: electrum/gui/qt/main_window.py:2297
 msgid "Sign"
 msgstr "Podepsat"
 
-#: electrum/gui/qt/main_window.py:2271
+#: electrum/gui/qt/main_window.py:2275
 msgid "Sign/verify Message"
 msgstr "Podepsat/ověřit správu"
 
@@ -3830,12 +3839,12 @@ msgstr "Podepsat/ověřit správu"
 msgid "Sign/verify message"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1925 electrum/gui/qt/main_window.py:2287
+#: electrum/gui/qt/main_window.py:1928 electrum/gui/qt/main_window.py:2291
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:43
 msgid "Signature"
 msgstr "Podpis"
 
-#: electrum/gui/qt/main_window.py:2266
+#: electrum/gui/qt/main_window.py:2270
 msgid "Signature verified"
 msgstr "Podpis ověřen"
 
@@ -3843,7 +3852,7 @@ msgstr "Podpis ověřen"
 msgid "Signed"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:960
+#: electrum/gui/kivy/main_window.py:976
 msgid "Signed invoices are saved automatically when you scan them."
 msgstr ""
 
@@ -3864,7 +3873,7 @@ msgstr ""
 msgid "Signing transaction..."
 msgstr "Podepisování transakce..."
 
-#: electrum/gui/qt/main_window.py:2218
+#: electrum/gui/qt/main_window.py:2222
 msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
 msgstr ""
 
@@ -3888,7 +3897,7 @@ msgstr ""
 msgid "Sorry!"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3070
+#: electrum/gui/qt/main_window.py:3074
 msgid "Source"
 msgstr "Zdroj"
 
@@ -3904,11 +3913,11 @@ msgstr ""
 msgid "Spend from"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2955
+#: electrum/gui/qt/main_window.py:2959
 msgid "Spend only confirmed coins"
 msgstr "Utratit pouze ověřené mince"
 
-#: electrum/gui/qt/main_window.py:2956
+#: electrum/gui/qt/main_window.py:2960
 msgid "Spend only confirmed inputs."
 msgstr "Utratit pouze ověřené vstupy."
 
@@ -3916,7 +3925,7 @@ msgstr "Utratit pouze ověřené vstupy."
 msgid "Standard wallet"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:460
+#: electrum/gui/qt/history_list.py:466
 msgid "Start"
 msgstr ""
 
@@ -3924,7 +3933,7 @@ msgstr ""
 msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2744
+#: electrum/gui/qt/main_window.py:2748
 msgid "Static"
 msgstr ""
 
@@ -3945,12 +3954,12 @@ msgstr "Stav:"
 msgid "Step {}/24.  Enter seed word as explained on your {}:"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2064 electrum/gui/qt/main_window.py:3108
-#: electrum/gui/qt/main_window.py:3314
+#: electrum/gui/qt/main_window.py:2068 electrum/gui/qt/main_window.py:3112
+#: electrum/gui/qt/main_window.py:3318
 msgid "Success"
 msgstr "Hotovo"
 
-#: electrum/gui/qt/history_list.py:456
+#: electrum/gui/qt/history_list.py:462
 msgid "Summary"
 msgstr "Shrnutí"
 
@@ -3970,16 +3979,16 @@ msgstr ""
 msgid "Swedish"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2599
+#: electrum/gui/qt/main_window.py:2603
 msgid "Sweep"
 msgstr "Sweep"
 
-#: electrum/gui/qt/main_window.py:2575
+#: electrum/gui/qt/main_window.py:2579
 msgid "Sweep private keys"
 msgstr "Sweep soukromé klíče"
 
 #: electrum/gui/text.py:139 electrum/gui/qt/main_window.py:759
-#: electrum/gui/stdio.py:116 electrum/gui/kivy/main_window.py:726
+#: electrum/gui/stdio.py:116 electrum/gui/kivy/main_window.py:739
 msgid "Synchronizing..."
 msgstr "Synchronizuji..."
 
@@ -3995,15 +4004,15 @@ msgstr ""
 msgid "Terms of Service"
 msgstr ""
 
-#: electrum/gui/qt/util.py:605
+#: electrum/gui/qt/util.py:610
 msgid "Text copied to clipboard"
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:421
+#: electrum/gui/kivy/main_window.py:429
 msgid "Text copied to clipboard."
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:817
+#: electrum/gui/kivy/main_window.py:830
 msgid "Text copied to clipboard.\n"
 "Tap again to display it as QR code."
 msgstr "Text zkopírován do schránky.\n"
@@ -4052,15 +4061,15 @@ msgstr ""
 msgid "The file was removed"
 msgstr "Soubor byl odstraněn"
 
-#: electrum/gui/qt/main_window.py:2651
+#: electrum/gui/qt/main_window.py:2655
 msgid "The following addresses were added"
 msgstr "Následující adresy byly přidány"
 
-#: electrum/gui/qt/main_window.py:2787
+#: electrum/gui/qt/main_window.py:2791
 msgid "The following alias providers are available:"
 msgstr "Jsou dostupní následující poskytovatelé aliasů:"
 
-#: electrum/gui/qt/main_window.py:2656 electrum/base_wizard.py:210
+#: electrum/gui/qt/main_window.py:2660 electrum/base_wizard.py:210
 msgid "The following inputs could not be imported"
 msgstr "Následující vstupy nemohly být importovány"
 
@@ -4068,8 +4077,13 @@ msgstr "Následující vstupy nemohly být importovány"
 msgid "The next step will generate the seed of your wallet.  This seed will NOT be saved in your computer, and it must be stored on paper.  To be safe from malware, you may want to do this on an offline computer, and move your wallet later to an online computer."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2222
+#: electrum/gui/qt/main_window.py:2226
 msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr ""
+
+#: electrum/gui/text.py:373 electrum/gui/qt/main_window.py:1693
+#: electrum/gui/stdio.py:209 electrum/gui/kivy/main_window.py:940
+msgid "The server returned an error when broadcasting the transaction."
 msgstr ""
 
 #: electrum/base_wizard.py:547
@@ -4088,10 +4102,6 @@ msgstr ""
 
 #: electrum/gui/qt/exception_window.py:98
 msgid "There was a problem with the automatic reporting:"
-msgstr ""
-
-#: electrum/gui/kivy/main_window.py:927
-msgid "There was an error broadcasting the transaction."
 msgstr ""
 
 #: electrum/plugins/trustedcoin/qt.py:88
@@ -4140,15 +4150,15 @@ msgstr ""
 msgid "This information is seen by the recipient if you send them a signed payment request."
 msgstr "Tato informace je viditelná příjemci, pokud jim pošlete podepsaný platební požadavek."
 
-#: electrum/gui/qt/main_window.py:2456
+#: electrum/gui/qt/main_window.py:2460
 msgid "This is a watching-only wallet"
 msgstr "Toto je peněženka pouze pro prohlížení"
 
-#: electrum/gui/qt/main_window.py:2232 electrum/gui/qt/main_window.py:2310
+#: electrum/gui/qt/main_window.py:2236 electrum/gui/qt/main_window.py:2314
 msgid "This is a watching-only wallet."
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:1065
+#: electrum/gui/kivy/main_window.py:1081
 msgid "This is a watching-only wallet. It does not contain private keys."
 msgstr ""
 
@@ -4160,7 +4170,7 @@ msgstr ""
 msgid "This is the height of your local copy of the blockchain."
 msgstr "Toto je výše Vaší lokální kopie blockchainu."
 
-#: electrum/gui/qt/main_window.py:2926
+#: electrum/gui/qt/main_window.py:2930
 msgid "This may result in higher transactions fees."
 msgstr "Toto může způsobit navýšení poplatku za transakci."
 
@@ -4168,7 +4178,7 @@ msgstr "Toto může způsobit navýšení poplatku za transakci."
 msgid "This means you will not be able to spend Bitcoins with it."
 msgstr "To znamená, že s ní nebudete moct utratit Bitcoiny."
 
-#: electrum/gui/qt/main_window.py:2967
+#: electrum/gui/qt/main_window.py:2971
 msgid "This might improve your privacy somewhat."
 msgstr ""
 
@@ -4196,7 +4206,7 @@ msgstr "Tento seed-semínko umožní obnovit Vaši peněženku v případě selh
 msgid "This service uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf. A small fee will be charged on each transaction that uses the remote server."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2839
+#: electrum/gui/qt/main_window.py:2843
 msgid "This setting affects the Send tab, and all balance related fields."
 msgstr ""
 
@@ -4216,11 +4226,11 @@ msgstr ""
 msgid "This type of script is not supported with {}."
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:265
+#: electrum/plugins/revealer/qt.py:257
 msgid "This version supports a maximum of {} characters."
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:291 electrum/gui/qt/main_window.py:2170
+#: electrum/plugins/revealer/qt.py:283 electrum/gui/qt/main_window.py:2174
 msgid "This wallet has no seed"
 msgstr "Tato peněženka nemá žádný seed-semínko"
 
@@ -4244,7 +4254,7 @@ msgstr "Tato peněženka je pouze na prohlížení."
 msgid "This wallet was restored from seed, and it contains two master private keys."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2780
+#: electrum/gui/qt/main_window.py:2784
 msgid "This will save fees."
 msgstr ""
 
@@ -4252,11 +4262,11 @@ msgstr ""
 msgid "Thus, you might want to keep using a non-segwit wallet in order to be able to receive bitcoins during the transition period."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2738
+#: electrum/gui/qt/main_window.py:2742
 msgid "Time based: fee rate is based on average confirmation time estimates"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:395
+#: electrum/gui/qt/history_list.py:401
 msgid "To"
 msgstr ""
 
@@ -4290,7 +4300,7 @@ msgstr ""
 msgid "To create a watching-only wallet, please enter your master public key (xpub/ypub/zpub)."
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:109
+#: electrum/plugins/revealer/qt.py:105
 msgid "To encrypt your backup, first we need to load some noise."
 msgstr ""
 
@@ -4324,7 +4334,7 @@ msgstr ""
 msgid "Too long passphrase ({} > 50 chars)."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3219
+#: electrum/gui/qt/main_window.py:3223
 msgid "Total size"
 msgstr "Celková velikost"
 
@@ -4332,7 +4342,7 @@ msgstr "Celková velikost"
 msgid "Transaction"
 msgstr "Transakce"
 
-#: electrum/gui/qt/history_list.py:542 electrum/gui/qt/main_window.py:2441
+#: electrum/gui/qt/history_list.py:548 electrum/gui/qt/main_window.py:2445
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:66
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:69
 msgid "Transaction ID"
@@ -4346,11 +4356,11 @@ msgstr "ID Transakce:"
 msgid "Transaction accepted by mobile phone. Waiting for confirmation."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3311
+#: electrum/gui/qt/main_window.py:3315
 msgid "Transaction added to wallet history."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:3301
+#: electrum/gui/qt/main_window.py:3305
 msgid "Transaction could not be saved."
 msgstr ""
 
@@ -4371,11 +4381,11 @@ msgstr ""
 msgid "Transaction unrelated to your wallet"
 msgstr "Transakce nesouvisí s Vaší peněženkou"
 
-#: electrum/gui/qt/main_window.py:2427
+#: electrum/gui/qt/main_window.py:2431
 msgid "Transaction:"
 msgstr "Transakce:"
 
-#: electrum/gui/qt/main_window.py:3074
+#: electrum/gui/qt/main_window.py:3078
 msgid "Transactions"
 msgstr "Transakce"
 
@@ -4391,7 +4401,7 @@ msgstr ""
 msgid "Trezor wallet"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2109
+#: electrum/gui/qt/main_window.py:2113
 msgid "True"
 msgstr ""
 
@@ -4464,15 +4474,15 @@ msgstr ""
 msgid "Unable to create backup"
 msgstr "Nelze vytvořit zálohu"
 
-#: electrum/gui/qt/main_window.py:2537
+#: electrum/gui/qt/main_window.py:2541
 msgid "Unable to create csv"
 msgstr "Nelze vytvořit csv"
 
-#: electrum/gui/qt/history_list.py:626
+#: electrum/gui/qt/history_list.py:633
 msgid "Unable to export history"
 msgstr "Nelze exportovat historii"
 
-#: electrum/gui/qt/main_window.py:2422
+#: electrum/gui/qt/main_window.py:2426
 msgid "Unable to read file or no transaction found"
 msgstr "Nelze číst soubor nebo nebyla nalezena žádná transakce"
 
@@ -4501,7 +4511,7 @@ msgstr ""
 msgid "Unfreeze"
 msgstr ""
 
-#: electrum/util.py:571 electrum/gui/qt/transaction_dialog.py:239
+#: electrum/util.py:560 electrum/gui/qt/transaction_dialog.py:239
 #: electrum/gui/kivy/uix/dialogs/requests.py:90
 #: electrum/gui/kivy/uix/dialogs/invoices.py:86
 msgid "Unknown"
@@ -4511,7 +4521,7 @@ msgstr "Neznámý"
 msgid "Unmatured"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:480
+#: electrum/gui/qt/history_list.py:486
 msgid "Unrealized gains"
 msgstr ""
 
@@ -4546,7 +4556,7 @@ msgstr ""
 msgid "Use"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2763
+#: electrum/gui/qt/main_window.py:2767
 msgid "Use Replace-By-Fee"
 msgstr ""
 
@@ -4566,11 +4576,11 @@ msgstr ""
 msgid "Use as server"
 msgstr "Použít jako server"
 
-#: electrum/gui/qt/main_window.py:2902
+#: electrum/gui/qt/main_window.py:2906
 msgid "Use change addresses"
 msgstr "Používat změnové adresy"
 
-#: electrum/gui/qt/main_window.py:2921
+#: electrum/gui/qt/main_window.py:2925
 msgid "Use multiple change addresses"
 msgstr "Použít několik adres pro změny"
 
@@ -4578,7 +4588,7 @@ msgstr "Použít několik adres pro změny"
 msgid "Use proxy"
 msgstr "Použít proxy"
 
-#: electrum/gui/qt/main_window.py:2816
+#: electrum/gui/qt/main_window.py:2820
 msgid "Use setconfig to set ssl_chain and ssl_privkey."
 msgstr "Použít setconfig k nastavení ssl_chain a ssl_privkey."
 
@@ -4611,11 +4621,11 @@ msgstr "Uživatelské jméno"
 msgid "Uses icons from the Icons8 icon pack (icons8.com)."
 msgstr "Používá ikony z balíčku Icons8 (icons8.com)."
 
-#: electrum/gui/qt/main_window.py:2912
+#: electrum/gui/qt/main_window.py:2916
 msgid "Using change addresses makes it more difficult for other people to track your transactions."
 msgstr "Měněním adres je pro ostatní obtížné dohledat Vaše transakce."
 
-#: electrum/gui/qt/history_list.py:303
+#: electrum/gui/qt/history_list.py:309
 msgid "Value"
 msgstr ""
 
@@ -4627,11 +4637,11 @@ msgstr ""
 msgid "Verification successful!"
 msgstr ""
 
-#: electrum/gui/kivy/uix/ui_screens/network.kv:51
+#: electrum/gui/kivy/uix/ui_screens/network.kv:48
 msgid "Verified block headers"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2297
+#: electrum/gui/qt/main_window.py:2301
 msgid "Verify"
 msgstr "Ověřit"
 
@@ -4656,7 +4666,7 @@ msgstr ""
 msgid "Version"
 msgstr "Verze"
 
-#: electrum/gui/qt/main_window.py:2884
+#: electrum/gui/qt/main_window.py:2888
 msgid "Video Device"
 msgstr "Video zařízení"
 
@@ -4664,12 +4674,12 @@ msgstr "Video zařízení"
 msgid "Vietnamese"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:574
+#: electrum/gui/qt/history_list.py:581
 msgid "View invoice"
 msgstr "Zobrazit fakturu"
 
 #: electrum/gui/qt/address_list.py:186 electrum/gui/qt/contact_list.py:88
-#: electrum/gui/qt/history_list.py:576
+#: electrum/gui/qt/history_list.py:583
 msgid "View on block explorer"
 msgstr "Zobrazit  v průzkumníku bloků"
 
@@ -4677,11 +4687,11 @@ msgstr "Zobrazit  v průzkumníku bloků"
 msgid "WARNING"
 msgstr "VAROVÁNÍ"
 
-#: electrum/gui/qt/main_window.py:2467
+#: electrum/gui/qt/main_window.py:2471
 msgid "WARNING: ALL your private keys are secret."
 msgstr "VAROVÁNÍ: VŠECHNY soukromé klíče jsou tajné."
 
-#: electrum/gui/qt/main_window.py:2460
+#: electrum/gui/qt/main_window.py:2464
 msgid "WARNING: This is a multi-signature wallet."
 msgstr ""
 
@@ -4701,7 +4711,7 @@ msgstr ""
 msgid "Wallet"
 msgstr "Peněženka"
 
-#: electrum/gui/qt/main_window.py:2102
+#: electrum/gui/qt/main_window.py:2106
 msgid "Wallet Information"
 msgstr ""
 
@@ -4721,7 +4731,7 @@ msgstr "Adresa peněženky pro změny"
 msgid "Wallet file corruption detected. Please restore your wallet from seed, and compare the addresses in both files"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2113
+#: electrum/gui/qt/main_window.py:2117
 msgid "Wallet name"
 msgstr "Název peněženky"
 
@@ -4729,11 +4739,11 @@ msgstr "Název peněženky"
 msgid "Wallet receive address"
 msgstr "Adresa peněženky pro příjem"
 
-#: electrum/gui/qt/main_window.py:2165 electrum/gui/kivy/main_window.py:1023
+#: electrum/gui/qt/main_window.py:2169 electrum/gui/kivy/main_window.py:1039
 msgid "Wallet removed: {}"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2115
+#: electrum/gui/qt/main_window.py:2119
 msgid "Wallet type"
 msgstr "Typ peněženky"
 
@@ -4745,12 +4755,13 @@ msgstr "Typ peněženky:"
 msgid "Wallet with two-factor authentication"
 msgstr "Peněženka s dvoufatorovým ověřováním"
 
-#: electrum/gui/kivy/main.kv:450
+#: electrum/gui/kivy/main.kv:448
 msgid "Wallets"
 msgstr "Peněženky"
 
-#: electrum/plugins/revealer/qt.py:129 electrum/plugins/revealer/qt.py:204
-#: electrum/gui/qt/util.py:195 electrum/gui/qt/transaction_dialog.py:173
+#: electrum/plugins/revealer/qt.py:125 electrum/plugins/revealer/qt.py:178
+#: electrum/plugins/revealer/qt.py:211 electrum/gui/qt/util.py:195
+#: electrum/gui/qt/transaction_dialog.py:173
 #: electrum/gui/qt/transaction_dialog.py:270
 #: electrum/gui/qt/installwizard.py:39 electrum/gui/qt/seed_dialog.py:67
 #: electrum/gui/qt/main_window.py:1609 electrum/gui/kivy/uix/screens.py:297
@@ -4759,10 +4770,6 @@ msgstr "Varování"
 
 #: electrum/gui/qt/console.py:72
 msgid "Warning!"
-msgstr ""
-
-#: electrum/plugins/revealer/qt.py:178
-msgid "Warning: "
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1020
@@ -4817,7 +4824,7 @@ msgstr ""
 msgid "Wrong key type"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2268
+#: electrum/gui/qt/main_window.py:2272
 msgid "Wrong signature"
 msgstr "Nesprávný podpis"
 
@@ -4827,7 +4834,7 @@ msgid "Yes"
 msgstr ""
 
 #: electrum/gui/qt/network_dialog.py:371
-#: electrum/gui/kivy/uix/ui_screens/network.kv:57
+#: electrum/gui/kivy/uix/ui_screens/network.kv:54
 msgid "You are following branch"
 msgstr "Sledujete následující větev"
 
@@ -4876,7 +4883,7 @@ msgstr ""
 msgid "You have multiple consecutive whitespaces or leading/trailing whitespaces in your passphrase."
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:961
+#: electrum/gui/kivy/main_window.py:977
 msgid "You may also save unsigned requests or contact addresses using the save button."
 msgstr ""
 
@@ -4888,7 +4895,7 @@ msgstr "Můžete vložit bitcoinovou adresu, označení z vašeho adresáře (zo
 msgid "You may extend your seed with custom words."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1868
+#: electrum/gui/qt/main_window.py:1871
 msgid "You may load a CSV file using the file icon."
 msgstr "Můžete načíst CSV soubor pomocí ikony souboru."
 
@@ -4923,7 +4930,7 @@ msgstr ""
 msgid "Your Ledger is locked. Please unlock it."
 msgstr ""
 
-#: electrum/gui/kivy/main_window.py:1058
+#: electrum/gui/kivy/main_window.py:1074
 msgid "Your PIN code was updated"
 msgstr "Váš PIN kód byl aktualizován"
 
@@ -4966,7 +4973,7 @@ msgid "Your seed is important!"
 msgstr "Váš seed-semínko je důležité!"
 
 #: electrum/gui/qt/network_dialog.py:371
-#: electrum/gui/kivy/uix/ui_screens/network.kv:57
+#: electrum/gui/kivy/uix/ui_screens/network.kv:54
 msgid "Your server is on branch"
 msgstr "Váš server je ve větvi"
 
@@ -4998,7 +5005,7 @@ msgstr "Seed-semínko Vaší peněženky je:"
 msgid "Your wallet has {} prepaid transactions."
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:628
+#: electrum/gui/qt/history_list.py:635
 msgid "Your wallet history has been successfully exported."
 msgstr "Historie Vaší peněženky byla úspěšně exportována."
 
@@ -5010,16 +5017,16 @@ msgstr "Vaše peněženka není chráněna."
 msgid "Your wallet is password protected and encrypted."
 msgstr "Vaše peněženka je chráněna a zašifrována."
 
-#: electrum/gui/qt/util.py:770
+#: electrum/gui/qt/util.py:775
 #, python-brace-format
 msgid "Your {0} were exported to '{1}'"
 msgstr ""
 
-#: electrum/gui/qt/util.py:755
+#: electrum/gui/qt/util.py:760
 msgid "Your {} were successfully imported"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2720
+#: electrum/gui/qt/main_window.py:2724
 msgid "Zeros after decimal point"
 msgstr "Nuly za desetinnou čárkou"
 
@@ -5071,7 +5078,7 @@ msgstr ""
 msgid "address already in wallet"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2767
+#: electrum/gui/qt/main_window.py:2771
 msgid "and you will have the possibility, while they are unconfirmed, to replace them with transactions that pay higher fees."
 msgstr ""
 
@@ -5091,7 +5098,7 @@ msgstr ""
 msgid "contacts"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2136
+#: electrum/gui/qt/main_window.py:2140
 msgid "cosigner"
 msgstr ""
 
@@ -5115,19 +5122,19 @@ msgstr ""
 msgid "invalid private key"
 msgstr ""
 
-#: electrum/gui/qt/invoice_list.py:67 electrum/gui/qt/invoice_list.py:70
+#: electrum/gui/qt/invoice_list.py:68 electrum/gui/qt/invoice_list.py:71
 msgid "invoices"
 msgstr ""
 
-#: electrum/gui/qt/util.py:353
+#: electrum/gui/qt/util.py:358
 msgid "json"
 msgstr "json"
 
-#: electrum/gui/qt/main_window.py:2567 electrum/gui/qt/main_window.py:2572
+#: electrum/gui/qt/main_window.py:2571 electrum/gui/qt/main_window.py:2576
 msgid "labels"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:130
+#: electrum/plugins/revealer/qt.py:126
 msgid "more information at <a href=\"https://revealer.cc/faq\">https://revealer.cc/faq</a>"
 msgstr ""
 
@@ -5135,15 +5142,15 @@ msgstr ""
 msgid "not implemented type"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:120
+#: electrum/plugins/revealer/qt.py:116
 msgid "or type a existing revealer code below and click 'next':"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1719
+#: electrum/gui/qt/main_window.py:1722
 msgid "please wait..."
 msgstr "Čekejte prosím..."
 
-#: electrum/plugins/revealer/qt.py:746
+#: electrum/plugins/revealer/qt.py:720
 msgid "print the calibration pdf and follow the instructions "
 msgstr ""
 
@@ -5155,11 +5162,11 @@ msgstr "proxy povoleno"
 msgid "receiving"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:60
+#: electrum/plugins/revealer/qt.py:57
 msgid "secret backup utility"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:412
+#: electrum/plugins/revealer/qt.py:384
 msgid "seed"
 msgstr ""
 
@@ -5167,7 +5174,7 @@ msgstr ""
 msgid "transaction is final"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:255
+#: electrum/plugins/revealer/qt.py:247
 msgid "type a custom alphanumerical secret below:"
 msgstr ""
 
@@ -5184,7 +5191,7 @@ msgstr ""
 msgid "watching only"
 msgstr "jen pro prohlížení"
 
-#: electrum/gui/qt/main_window.py:2108
+#: electrum/gui/qt/main_window.py:2112
 msgid "watching-only"
 msgstr ""
 
@@ -5192,7 +5199,7 @@ msgstr ""
 msgid "wiped"
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:205
+#: electrum/plugins/revealer/qt.py:179
 msgid "your seed extension will <b>not</b> be included in the encrypted backup."
 msgstr ""
 
@@ -5209,7 +5216,7 @@ msgstr ""
 msgid "{} connections."
 msgstr ""
 
-#: electrum/plugins/revealer/qt.py:198
+#: electrum/plugins/revealer/qt.py:171
 msgid "{} encrypted for Revealer {}_{} saved as PNG and PDF at: "
 msgstr ""
 
